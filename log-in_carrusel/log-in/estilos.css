@@ -1,0 +1,55 @@
+#form{
+
+    color: rgb(140, 73, 73);
+    text-align: center;
+    padding: 50px;
+    border-radius: 3px;
+}
+
+input{
+    border: solid 1px;
+    border-radius: 5px;
+
+}
+
+#boton1{
+border: solid 1px;
+width: 100%;
+height: 100px;
+margin-top:250px;
+background-color: rgb(29, 163, 78);
+font-size: 40px;
+border-radius: 10px;
+color: #fff;
+
+}
+
+#formu{
+ color: rgb(140, 73, 73) ;
+ border-radius: 5px;
+
+}
+
+select{
+    border-radius: 5px;
+}
+
+#select{
+ width: 50px;
+
+}
+
+
+
+/* mensaje que parece en validar */
+
+.bad{
+    text-align: center;
+      width: 500px;
+      padding: 12px;
+      background-color: #a22;
+      color: #fff;
+      align-items: flex-start;
+      margin-top: 500px;
+      margin-left: 100px;
+  }

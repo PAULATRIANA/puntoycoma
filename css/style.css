@@ -1,0 +1,138 @@
+
+/* pruebas para el body*/
+ body{
+  width: 100%;
+  height: 100%;
+  background-color: #EFC4BD;
+} 
+
+/* estilos de los containers */
+.container{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+ 
+#tarjeta{
+  padding-top: 180px;
+}
+/*color de fondo del header*/
+
+
+header{
+background-color: #EFC4BD;
+}
+
+
+
+
+
+
+
+/*posición de la imagen*/
+  /* .ima{
+    margin-left: -100px;
+  } */
+
+
+/* diseño de las tajetas*/
+ .card{
+  width: 100px;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  padding-top: 30px;
+  transition: all 400ms ease;
+} 
+.card:hover{
+   box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+   transform: translateY(-3%);
+}
+/* .card img{
+  width: 288px;
+  height: 210px;
+} */
+
+ .card-text{
+  padding: 10px;
+  text-align: center;
+  line-height: 1.0;
+  color: #6a6a6a;
+  margin-top: 5px;
+}
+
+.card-title{
+  padding: 5px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.boton{
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+margin-top: 10px;
+color: rgb(112, 82, 94);
+border: 1px solid rgb(112, 82, 94);
+border-radius: 4px;
+transition: all 400ms ease;
+text-align: center;
+}
+
+.boton:hover{
+  background: #d89a9a;
+  color: #fff;
+} 
+
+/*estilos del footer*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
